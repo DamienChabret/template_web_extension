@@ -1,0 +1,21 @@
+{
+ "manifest_version": 2, 
+ "name": "XXX", 
+ "description": "XXX", 
+ "version": "1.0",
+ "permissions": [ 
+  "http://*/*",
+  "https://*/*"
+ ],
+ "browser_action": {   
+  "default_icon" : "source/XXX.jpg", 
+  "default_popup": "source/index.html" 
+ },
+ "icons": { 
+  "128" : "source/XXX.jpg" 
+ },
+ "background": { 
+     "scripts": ["source/script.js"]
+    }
+],
+}
